@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="pop-up-content">
+      <input type="number" name="musescore-volume-input" id="musescore-volume-input" min="0" max="100" step="1">
+      <input type="button" value="Set Default Volume" id="musescore-set-button">
+      <div class="hidden volume-confirm">Default Volume Set to <span id="volume-set"></span></div>
+      <div class="hidden volume-error">Error Setting Volume</div>
+    </div>
+  </body>
+  <script src="popup.js"></script>
+</html>

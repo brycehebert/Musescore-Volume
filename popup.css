@@ -1,0 +1,27 @@
+html,
+body {
+  width: 150px;
+  background: #2e68c0;
+}
+
+body {
+  padding: 1.5rem;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", Helvetica, Calibri, sans-serif;
+  font-size: .75rem;
+}
+
+input[type="number"] {
+  width: 50%;
+  margin: 0 auto 1rem;
+  border: none;
+}
+
+input[type="button"] {
+  margin: 0 auto 1rem;
+}
+
+.hidden {
+  display: none;
+}
